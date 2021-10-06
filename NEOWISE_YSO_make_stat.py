@@ -47,7 +47,7 @@ tl2 = 60200
 print('start extracting data from WISE.....')
 
 # open csvfile to save all the stats
-csvfile = open('NEOWISE_YSO_variable_stat.csv', 'w', newline='')
+csvfile = open('wise_csv/NEOWISE_YSO_variable_stat.csv', 'w', newline='')
 csvdata = csv.writer(csvfile, delimiter=',')
 csvdata.writerow(['Index', 'ra', 'dec','dist_sd',
                   'avg_W1', 'stdev_W1', 'avg_eW1',
@@ -74,10 +74,10 @@ csvdata.writerow(['Index', 'ra', 'dec','dist_sd',
                   ])
 
 
-source1 = pa.read_csv('/home/wooseok/WISE_data/csvfiles/ysos_c.csv')
+source1 = pa.read_csv('wise_csv/ysos_c.csv')
 
 
-source2 = pa.read_csv('/home/wooseok/WISE_data/Taurus/ysos_info.dat',
+source2 = pa.read_csv('wise_csv/ysos_info.dat',
                                  header=None, skiprows=1, sep="\s+",
                                  names=['index_1', 'ra', 'dec', 'Disk'])
 
@@ -100,7 +100,7 @@ for i in range(1,10520):
             dec = source.loc[source['index_1'] == i, 'dec'].values[0]
 
         # call the averaged photometry data
-        mddat = pa.read_csv('/home/wooseok/WISE_data/3rdnewwise/outlier_cut_data/'
+        mddat = pa.read_csv('outlier_cut_data/'
                             + str(i) + '_cavg.csv',
                             names=['mjd', 'mag', 'emag', 'flt', 'class'],
                             skiprows=1)
@@ -112,7 +112,7 @@ for i in range(1,10520):
         nw2 = len(xw2)
 
         ### *.alld -> outlier removed raw photometry data. Only used for distance STD ###
-        mdall = pa.read_csv('/home/wooseok/WISE_data/3rdnewwise/outlier_cut_data/'
+        mdall = pa.read_csv('outlier_cut_data/'
                             + str(i) + '_alld.csv',
                             names=['mjd', 'mag', 'emag', 'flt', 'class','ra','dec'],
                             skiprows=1)
