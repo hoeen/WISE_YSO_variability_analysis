@@ -1,4 +1,4 @@
-## NEOWISE Young Stellar Object variability analyses used in Park et al. (2021, accepted for publication in ApJ) https://arxiv.org/abs/2107.10751
+## NEOWISE Young Stellar Object variability analyses used in Park et al. (2021, ApJ publication) https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract
 
 File description :
 
