@@ -80,6 +80,6 @@ with open('table1', 'r') as t1:
 
 
 # db commit
-# connection.commit()
+connection.commit()
 
 

@@ -97,6 +97,6 @@ with open('table2', 'r') as t2:
 
 
 # db commit
-# connection.commit()
+connection.commit()
 
 
