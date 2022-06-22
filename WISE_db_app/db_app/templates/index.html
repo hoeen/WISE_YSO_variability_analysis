@@ -29,13 +29,18 @@
           <ul style="list-style-type: none;">
             <li>
               특정 WISE YSO 이름을 해당 URL 주소에 붙여 <br>
-              '/source_id/{YSO 카탈로그 id  (ex: M1, EL519, ..)}' <br> 형식으로 입력해 <br>
+              '/{YSO 카탈로그 id  (ex: M1, EL519, ..)}/getcsv' <br> 형식으로 입력해 <br>
               WISE 데이터를 .csv 형태로 다운로드할 수 있습니다.
             </li>
             <br>
             <br>
             <li>
-              해당 URL 주소에 '/users' 를 통해 유저 목록을 조회할 수 있습니다.
+              
+              <li>
+                별의 이후 밝기를 예측하기 위해 <br>XGBoostregressor을 이용하였습니다. <br>
+                '/{YSO 카탈로그 id  (ex: M1, EL519, ..)}/predict' <br> 형식으로 입력해 <br>
+                이후 별의 밝기를 예측한 그래프를 확인할 수 있습니다.
+              </li>
             </li>
           </ul>
         </div>

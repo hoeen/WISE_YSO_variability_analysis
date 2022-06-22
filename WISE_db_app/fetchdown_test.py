@@ -3,7 +3,6 @@ def file_download(catalog_id: str):
     import pandas as pd
     connection = db_connect.wise_connect().connect()
     cursor = connection.cursor()
-    print(connection, cursor)
     cursor.execute('''
         SELECT * FROM wise_1 w1
         WHERE w1.source_id = (%s);
