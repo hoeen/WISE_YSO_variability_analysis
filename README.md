@@ -20,12 +20,12 @@
 
 그 후, 계산된 feature들을 이용하여 별의 밝기변화 형태를 Linear, Curved, Periodic, Burst, Drop, Irregular (선형, 곡선형, 주기형, 폭발 - 순간적인 밝기 증가, 깜빡임 - 순간적인 밝기 감소, 불규칙) 의 6가지 형태로 분류하는 데 성공하였습니다. 
 
-<img src="readme_images/vartypes.png" alt="Variable Types" style="zoom:80%;"/>
+<img src="readme_images/vartypes.png" alt="Variable Types" style="zoom:50%;"/>
 
 각각의 **원시성의 진화 단계는 선행 연구들로 인해 알려진 상태**이기 때문에, 밝기 변화 분류 결과와 진화 단계를 비교하면 **진화 단계별 밝기 변화의 특징을 파악**할 수 있습니다.  
 아래는 가장 초기 단계부터 Class 0/I - Class II - Class III 으로 나누어진 원시성 진화 단계별 변화 형태의 분포표입니다. 괄호 () 는 전체 샘플 대비 % 인데, Class 0 단계에서 밝기 변화율이 54.8%로 가장 큰 것을 알 수 있습니다.
 
-![table2](readme_images/table2.png)
+<img src="readme_images/table2.png" alt="table2" style="zoom:80%;" />
 
 본 연구를 통해 원시성 각각의 알려진 **진화 단계**와 새롭게 분류된 **밝기 변화 형태**를 비교 분석한 결과 **더 초기 단계의 원시성일 수록 크고 선형적인 밝기 변화를 보이는 것이 밝혀졌습니다.** 
 
