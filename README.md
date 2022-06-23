@@ -1,8 +1,10 @@
 # NEOWISE Young Stellar Object variability analyses 
 
-![스크린샷 2022-06-14 오후 8.34.36](readme_images/paper_resize.png)
+### 🔭 💫 석사 연구 우주망원경 WISE를 이용한 원시성 적외선 밝기 데이터 분석 프로젝트입니다. 
 
-🔭 💫 석사 과정 중 진행했던 연구인 우주망원경 WISE를 이용한 원시성 적외선 밝기 데이터 분석 프로젝트입니다. 연구 결과는 논문으로 Astrophysical Journal에 기고하였습니다. [링크](https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract) 
+### 연구 결과는 논문으로 Astrophysical Journal에 기고하였습니다. [링크](https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract) 
+
+![](readme_images/paper_resize.png)
 
 
 
