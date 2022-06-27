@@ -4,13 +4,13 @@
 
 ### 연구 결과는 논문으로 Astrophysical Journal에 기고하였습니다. [링크](https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract) 
 
+연구 관련 데이터 분석은 python3로 진행되었으며, 간략한 분석 과정 튜토리얼을 [WISE YSO variability analysis_tutorial.ipynb](WISE YSO variability analysis_tutorial.ipynb) 에서 확인하실 수 있습니다. (현재 미완이며 업데이트 예정입니다.)
+
 ![](readme_images/paper_resize.png)
 
 
 
-📊 여기에서는 ''천문학''적인 설명보다는 "데이터 분석 과정"에 초점을 맞춰 분석 결과를 설명하고자 합니다.
-
-## Introduction
+## Introduction - 연구 소개
 
 ![Jets Protrude from a Young Stellar Object](readme_images/80944_web_resize.jpg)
 
@@ -26,15 +26,17 @@
 <img src="readme_images/vartypes_re.png" alt="Variable Types"/>
 
 각각의 **원시성의 진화 단계는 선행 연구들로 인해 알려진 상태**이기 때문에, 밝기 변화 분류 결과와 진화 단계를 비교하면 **진화 단계별 밝기 변화의 특징을 파악**할 수 있습니다.  
-아래는 가장 초기 단계부터 Class 0/I - Class II - Class III 으로 나누어진 원시성 진화 단계별 변화 형태의 분포표입니다. 괄호 () 는 전체 샘플 대비 % 인데, Class 0 단계에서 밝기 변화율이 54.8%로 가장 큰 것을 알 수 있습니다.
+아래는 가장 초기 단계부터 Class 0/I - Class II - Class III 으로 나누어진 원시성 진화 단계별 변화 형태의 분포표입니다. 괄호 () 는 전체 샘플 대비 % 인데, Class 0/I 단계에서 밝기 변화율이 54.8%로 가장 큰 것을 알 수 있습니다.
 
 <img src="readme_images/table2_resize.png" alt="table2"/>
 
-본 연구를 통해 원시성 각각의 알려진 **진화 단계**와 새롭게 분류된 **밝기 변화 형태**를 비교 분석한 결과 **더 초기 단계의 원시성일 수록 크고 선형적인 밝기 변화를 보이는 것이 밝혀졌습니다.** 
+아래 그림은 별 개개의 밝기의 분산 (클수록 밝기 변화의 정도가 크며 무질서함) 이 x축, 최대 밝기변화 폭이 y축인 그래프입니다. 가장 초기 단계인 P (Class 0/I, 빨간색) 가 가장 변화의 정도가 크고, 이후 진화 단계로 접어들수록 밝기 변화의 정도가 줄어드는 경향을 확인할 수 있습니다.
+
+<img src="readme_images/figure4.png" alt="table2"/>
+
+결론적으로, 본 연구를 통해 원시성 각각의 알려진 **진화 단계**와 새롭게 분류된 **밝기 변화 형태**를 비교 분석한 결과 **더 초기 단계의 원시성일 수록 크고 선형적인 밝기 변화를 보이는 것이 밝혀졌습니다.** 
 
 
-
-## Section
 
 
 
