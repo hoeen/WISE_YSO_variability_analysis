@@ -4,7 +4,7 @@
 
 ### 연구 결과는 논문으로 Astrophysical Journal에 기고하였습니다. [링크](https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract) 
 
-연구 관련 데이터 분석은 python3로 진행되었으며, 간략한 분석 과정 튜토리얼을 <a href="WISE YSO variability analysis_tutorial.ipynb">WISE YSO variability analysis_tutorial.ipynb</a> 에서 확인하실 수 있습니다. (현재 미완이며 업데이트 예정입니다.)
+연구 관련 데이터 분석은 python3로 진행되었으며, 분석 과정 전반을 <a href="analysis_notebooks/">analysis_notebooks</a> 에서 확인하실 수 있습니다. 
 
 ![](readme_images/paper_resize.png)
 
