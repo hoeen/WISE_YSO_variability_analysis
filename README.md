@@ -6,11 +6,11 @@
 
 연구 관련 데이터 분석은 python3로 진행되었으며, 분석 과정 전반을 아래에서 확인하실 수 있습니다. 
 
-1. <a href="analysis_notebooks/WISE-YSO-analysis-1.ipynb">analysis_notebooks/WISE-YSO-analysis-1.ipynb</a> 
+1. <a href="analysis_notebooks/WISE-YSO-analysis-1.ipynb">analysis_notebooks/WISE-YSO-analysis-1.ipynb</a>    
    관측 데이터의 수집 및 가공
-2. <a href="analysis_notebooks/WISE-YSO-analysis-2.ipynb">analysis_notebooks/WISE-YSO-analysis-2.ipynb</a>
+2. <a href="analysis_notebooks/WISE-YSO-analysis-2.ipynb">analysis_notebooks/WISE-YSO-analysis-2.ipynb</a>  
    밝기 변화 관련 특성 정의 및 이를 활용한 밝기 변화 형태 분류
-3. <a href="analysis_notebooks/WISE-YSO-analysis-3.ipynb">analysis_notebooks/WISE-YSO-analysis-3.ipynb</a> 
+3. <a href="analysis_notebooks/WISE-YSO-analysis-3.ipynb">analysis_notebooks/WISE-YSO-analysis-3.ipynb</a>   
    분류한 통계적 데이터를 바탕으로 원시성의 진화 단계에 따른 밝기변화 추세 변화 설명 
    
 
