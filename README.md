@@ -1,5 +1,8 @@
 # NEOWISE Young Stellar Object variability analyses 
 
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-#FF7A59.svg?&style=for-the-badge&logo=Plotly&logoColor=Black)[![Astropy](https://img.shields.io/badge/Astropy-#DD0B78.svg?&style=for-the-badge&logo=Stardock&logoColor=white)](https://github.com/astropy/astropy)
+
+
 ### 🔭 💫 우주망원경 WISE를 이용한 원시성 적외선 밝기 데이터 분석 프로젝트입니다. 
 
 ### 연구 결과는 논문으로 Astrophysical Journal에 기고하였습니다. [링크](https://ui.adsabs.harvard.edu/abs/2021ApJ...920..132P/abstract) 
@@ -11,8 +14,7 @@
 2. <a href="analysis_notebooks/WISE-YSO-analysis-2.ipynb">analysis_notebooks/WISE-YSO-analysis-2.ipynb</a>  
    밝기 변화 관련 특성 정의 및 이를 활용한 밝기 변화 형태 분류
 3. <a href="analysis_notebooks/WISE-YSO-analysis-3.ipynb">analysis_notebooks/WISE-YSO-analysis-3.ipynb</a>   
-   분류한 통계적 데이터를 바탕으로 원시성의 진화 단계에 따른 밝기변화 추세 변화 설명 
-   
+   분류한 통계적 데이터를 바탕으로 원시성의 진화 단계에 따른 밝기변화 추세 변화 설명 (업데이트 예정) 
 
 ![](readme_images/paper_resize.png)
 
