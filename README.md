@@ -1,6 +1,6 @@
 # NEOWISE Young Stellar Object variability analyses 
 
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-#FF7A59.svg?&style=for-the-badge&logo=Plotly&logoColor=Black)[![Astropy](https://img.shields.io/badge/Astropy-#DD0B78.svg?&style=for-the-badge&logo=Stardock&logoColor=white)](https://github.com/astropy/astropy)
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas)![Matplotlib](https://img.shields.io/badge/Matplotlib-FF7A59.svg?&style=for-the-badge&logo=Plotly)[![Astropy](https://img.shields.io/badge/Astropy-DD0B78.svg?&style=for-the-badge&logo=Stardock&logoColor=white)](https://github.com/astropy/astropy)
 
 
 ### 🔭 💫 우주망원경 WISE를 이용한 원시성 적외선 밝기 데이터 분석 프로젝트입니다. 
